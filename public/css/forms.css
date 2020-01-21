@@ -1,0 +1,201 @@
+/* --------------------------------------------------------------
+
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+
+   Usage:
+   * For text fields, use class .title or .text
+   * For inline forms, use .inline (even when using columns)
+
+-------------------------------------------------------------- */
+
+/*
+	A special hack is included for IE8 since it does not apply padding
+	correctly on fieldsets
+ */
+label       { font-weight: bold; }
+fieldset    { padding:0 1.4em 1.4em 1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+legend      { font-weight: bold; font-size:1.2em; margin-top:-0.2em; margin-bottom:1em; }
+
+input,
+select,
+textarea {
+  font-family:Tahoma,Arial,sans-serif;
+  font-size: 1em;
+}
+
+fieldset, #IE8#HACK { padding-top:1.4em; }
+legend, #IE8#HACK { margin-top:0; margin-bottom:0; }
+
+/* Form fields
+-------------------------------------------------------------- */
+
+/*
+  Attribute selectors are used to differentiate the different types
+  of input elements, but to support old browsers, you will have to
+  add classes for each one. ".title" simply creates a large text
+  field, this is purely for looks.
+ */
+input[type=text], input[type=password],
+input.text, input.title,
+textarea {
+  background-color:#fff;
+  border:1px solid #bbb;
+}
+
+/*
+* input ketika focus
+*/
+input[type=text]:focus, input[type=password]:focus,
+input.text:focus, input.title:focus,
+textarea:focus {
+  border-color:#666;
+  background: #FFFAFA;
+}
+select {
+	background-color:#fff;
+	border:1px solid #bbb;
+}
+
+input[type=text], input[type=password], input][type=submit]
+input.text, input.title,
+textarea, select {
+  margin:0.5em 0;
+}
+
+input.text,
+input.title   { width: 300px; padding:5px; }
+input.title   { font-size:1.5em; }
+textarea{
+	width: 387px;
+	height: 50px;
+	padding:5px;
+	vertical-align: middle;
+}
+
+/*
+  This is to be used on forms where a variety of elements are
+  placed side-by-side. Use the p tag to denote a line.
+ */
+form.inline { line-height:3; }
+form.inline p { margin-bottom:0; }
+
+p.error,
+input.error,
+textarea.error {
+  background-color:#fbe3e4;
+  border:1px solid #FF7E7E;
+}
+input.error:FOCUS,
+textarea.error:FOCUS {
+  background-color:#FFFAFA;
+  border:1px solid #FF7E7E;
+}
+
+/* Success, info, notice and error/alert boxes
+-------------------------------------------------------------- */
+
+div.error,
+div.alert,
+div.notice,
+div.success,
+div.info {
+  padding: 10px 10px 10px 40px;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+}
+
+div.error,
+div.alert {
+  background-color: #FEF5F1;
+  background-image: url(../images/error.png);
+  color: #8a1f11;
+  border-color: #FF7E7E;
+}
+div.notice     {
+	background-color: #FFFBE4;
+	background-image: url(../images/warning.png);
+	color: #514721;
+	border-color: #F8C90F;
+}
+div.success    {
+	background-color: #F8FFF0;
+	background-image: url(../images/success.png);
+	color: #264409;
+	border-color: #BBEE77; }
+div.info 			{
+	background-color: #E1F1F8;
+	background-image: url(../images/info.png);
+	color: #205791;
+	border-color: #64A1D0;
+}
+div.error a, div.alert a { color: #8a1f11; }
+div.notice a   { color: #514721; }
+div.success a  { color: #264409; }
+div.info a			{ color: #205791; }
+
+
+/* align-form */
+.align-form label{
+  display: inline-block;
+  width: 110px;
+}
+
+.radio-group,
+.checkbox-groups {
+/*  display: inline;
+*/}
+
+input.submit,
+input[type=submit],
+input[type=button],
+input[type=reset]{
+  background: url(../images/gradient-button.png) repeat-x;
+  border: 1px solid #ccc;
+  padding: 0 15px 3px 15px;
+  cursor: pointer;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+input.submit:active,
+input[type=submit]:active,
+input[type=reset]:active{
+  background: #666666;
+  border: apx solid #555555;
+  color: #ffffff;
+}
+
+.button{
+  background: url(../images/gradient-button.png) repeat-x;
+  border: 1px solid #ccc;
+  padding: 2px 5px 2px 5px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.button span{
+  padding-left: 20px;
+}
+span.view {
+  background: 0px 0px url("../images/view-16.png") no-repeat;
+}
+span.edit {
+  background: 0px 0px url("../images/edit-16.png") no-repeat;
+}
+span.add {
+  background: 0px 0px url("../images/add-16.png") no-repeat;
+}
+span.delete {
+  background: 0px 0px url("../images/delete-16.png") no-repeat;
+}
+span.upload {
+  background: 0px 0px url("../images/upload.png") no-repeat;
+}
+span.check {
+  background: 0px 0px url("../images/check-16.png") no-repeat;
+}
+span.oke {
+  background: 0px 0px url("../images/oke.png") no-repeat;
+}

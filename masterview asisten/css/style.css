@@ -1,0 +1,295 @@
+body {
+	margin:0;
+	background-color: #f9f6f6;
+}
+#content.span-24{width:1200px;margin:0;}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+h1.title {
+	margin: 5px 0 0 0;
+	font:bold 24px/28px "Myriad Pro","Myriad Set","Myriad Apple",Myriad,Helvetica Nueue,Arial,Verdana,Sans-serif;
+}
+h4.subtitle{
+	margin: 5px 0 0 0;
+	font: 12px "Myriad Pro","Myriad Set","Myriad Apple",Myriad,Helvetica Nueue,Arial,Verdana,Sans-serif;
+}
+/*.title, .subtitle, .logo{
+	text-align: center;	
+}*/
+#header {
+	background: #c5d2e2 url(../images/gradient-blue.jpg) repeat-x;
+	padding: 20px 0 15px 10px;
+}
+
+#announcement{
+	background: red;
+	padding: 0 10px 0 0;
+}
+
+#announcement h3{
+	margin-bottom: 0px;
+	padding: 3px 0 3px 0;
+	text-align: center;
+	color: #fff;
+}
+
+#login-info{
+	/*background: #d81c1c url(../images/gradient-red.jpg) repeat-x;*/
+	background: navy;
+	padding: 0 10px 0 0;
+}
+#login-info h5{
+	margin-bottom: 0px;
+	padding: 3px 0 3px 0;
+	text-align: right;
+	color: #fff;
+	font: 11px arial;
+	font-style: italic;
+	font-weight: bold;
+}
+#login-info h5 a{
+	color: #fff;
+}
+#content {
+	background-color:#fff;
+}
+
+#main-content, #login-area{
+	/*background: #F2F8FC url(../images/gradient-body.png) repeat-x*/;
+}
+#main-content{
+	padding-top: 30px;
+	padding-right:10px;
+}
+#index{
+	margin: 30px 20px 30px 40px;
+}
+.box{
+	background: #fafafa url(../images/gradient-body.png) repeat-x;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+/*login*/
+#login-box{
+	padding: 10% 10% 20% 10%;
+}
+#login-box-header{
+	background-color: #831010;
+	padding-left: 20px;
+}
+#login-box-header h2{
+	color: #fff;
+	font-family: Myriad Pro, Arial;
+	font-size: 18px;
+	margin-bottom:0;
+}
+#login-box .form {
+	padding: 20px 20px 20px 20px;
+	background-color:#fff;
+	border: 1px solid #eee;
+}
+#login-box .form  input.title {
+	font-size:1.5em;
+	padding:5px;
+	width:98%;
+	height: 15px;
+}
+#login-box .form  input.submit {
+	background: #e0e0e0 url("../images/gradient-button.png") repeat-x;
+	border:1px solid #CCCCCC;
+	cursor:pointer;
+	font-size:12px;
+	font-weight: bold;
+	height:25px;
+	letter-spacing:1px;
+	width:100px;
+}
+/*Content*/
+h3.content-title {
+	font-size :18px;
+	padding-bottom:5px;
+	border-bottom: #ccc 1px solid;
+	margin-bottom: 0.6em;
+}
+/*Menu Navigasi*/
+#navlist {
+	background:#fff;
+	font:13px arial,sans-serif;
+	margin:30px 0 0 0;
+}
+#navlist li {
+	border-top:1px solid #CCCCCC;
+	list-style:none outside none;
+	margin:0;
+	text-align:left;
+}
+#navlist li a {
+	background:#fff;
+	display:block;
+	padding:0.25em 0.5em 0.25em 1.3em;
+	text-decoration:none;
+}
+
+#navlist li a:hover {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-color:#FFEE33;
+	color:#333333;
+}
+/*form*/
+form{
+	margin-bottom: 2px;
+}
+
+
+form input, form select, form textarea {
+	background-color:#FFFFFF;
+}
+
+
+
+/*Table*/
+table{
+	background:#fff;
+	border-collapse: collapse;
+	
+}
+th {
+	/*background-color: #901111;*/
+	background-color: navy;
+	color: #fff;
+	text-align: center;
+}
+th, td {
+	border: 1px solid #ddd;
+/*	padding-left: 10px;*/
+}
+/*footer*/
+#footer p{
+	font-style: italic;
+	color: #888888;
+}
+
+table thead .filter
+{
+    text-align:right;
+}
+
+table thead th
+{
+	/*background-color: #901111;*/
+	background-color: navy;
+	color: #fff;
+	text-align: center;
+}
+
+table tfoot
+{
+    text-align:center;      
+}
+
+#highlight-regular td{
+	background:#e8edff;
+}
+
+#highlight-yellow td{
+	background:#fffacd;
+}
+
+#highlight-pink td{
+	background:#ffe4b5;
+}
+
+#invisible{
+	display: none;
+}
+
+#abc td{
+	background:#ffe4b5;
+}
+
+/* ============================================================
+  COMMON
+============================================================ */
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;  
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* ============================================================
+  SWITCH 3 - YES NO
+============================================================ */
+input.cmn-toggle-yes-no + label {
+  padding: 2px;
+  width: 40px;
+  height: 30px;
+  margin-bottom: -20px;
+}
+input.cmn-toggle-yes-no + label:before, input.cmn-toggle-yes-no + label:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+input.cmn-toggle-yes-no + label:before {
+  background-color: #dddddd;
+  content: attr(data-off);
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+input.cmn-toggle-yes-no + label:after {
+  background-color: #8ce196;
+  content: attr(data-on);
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+input.cmn-toggle-yes-no:checked + label:before {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+input.cmn-toggle-yes-no:checked + label:after {
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
+}
