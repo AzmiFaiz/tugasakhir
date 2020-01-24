@@ -1,44 +1,44 @@
 <!DOCTYPE html>
-    <html lang="id-ID">
+<html lang="id-ID">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-param" content="_frontendCSRF">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_frontendCSRF">
     <meta name="csrf-token" content="Z2VMUVg5NEYrVylmCQAAAyo3Nj1tCQZzBFIvFWtSAjEwNgMLaWFOKA==">
-        <title>AIS STT NF</title>
-        <link rel="shortcut icon" href="https://ais.nurulfikri.ac.id/sttnf.ico">
-       <link href="/assets/3c57afd3/css/bootstrap.css" rel="stylesheet">
-<link href="/assets/ab654d7c/css/AdminLTE.css" rel="stylesheet">
-<link href="/assets/ab654d7c/css/skins/skin-blue.min.css" rel="stylesheet">
-<link href="/assets/931569a9/sweetalert.css" rel="stylesheet">
-<link href="/css/site.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/bc23d36095.js" crossorigin="anonymous"></script>
+    <title>SIMASDOS STT NF</title>
+    <link rel="shortcut icon" href="https://ais.nurulfikri.ac.id/sttnf.ico">
+    <link href="/assets/3c57afd3/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/ab654d7c/css/AdminLTE.css" rel="stylesheet">
+    <link href="/assets/ab654d7c/css/skins/skin-blue.min.css" rel="stylesheet">
+    <link href="/assets/931569a9/sweetalert.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc23d36095.js" crossorigin="anonymous"></script>
 </head>
-    <body class="hold-transition skin-blue layout-top-nav">
-        <div class="wrapper">
+<body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
 
         
 <header class="main-header">
 <nav id="w4" class="navbar-static-top navbar-fixed-top navbar"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="https://ais.nurulfikri.ac.id/" style="padding:5px 15px; font-size:20px;"><img src="../img/sttnf.png" alt="" style="display:inline;"> <span class="logo-lg" style="vertical-align:middle; margin-left:2px;"><b>AIS</b> STT NF</span></a></div><div id="w4-collapse" class="collapse navbar-collapse"><ul id="w5" class="navbar-nav nav"><li class="active"><a href="index.html">Home</a></li></ul></div></div></nav></header>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="https://ais.nurulfikri.ac.id/" style="padding:5px 15px; font-size:20px;"><img src="../img/sttnf.png" alt="" style="display:inline;"> <span class="logo-lg" style="vertical-align:middle; margin-left:2px;"><b>SIMASDOS</b> STT NF</span></a></div><div id="w4-collapse" class="collapse navbar-collapse"><ul id="w5" class="navbar-nav nav"><li class="active"><a href="index.html">Home</a></li></ul></div></div></nav></header>
 
         
         
 <!-- Full Width Column -->
 <div class="content-wrapper" style="padding-top:50px;">
-        <div class="container">
-                        <section class="content" style="padding-left:0; padding-right:0;">
-                                <div class="callout callout-info" style="margin-bottom:15px;">
-        <h4 style="margin-bottom:0;">Selamat Datang di Sistem Informasi Akademik - STT Terpadu Nurul Fikri</h4>
+    <div class="container">
+        <section class="content" style="padding-left:0; padding-right:0;">
+        <div class="callout callout-info" style="margin-bottom:15px;">
+        <h4 style="margin-bottom:0;">Selamat Datang di Sistem Informasi Asisten Dosen - STT Terpadu Nurul Fikri</h4>
     </div>
-<div class="row">
+    <div class="row">
     <div class="col-md-8">
         <div  id="bc_w0" class="box box-default"><div class="box-header with-border"><h3 class="box-title"><i class="far fa-newspaper"></i> &nbsp;Berita Utama</h3><div class="box-tools pull-right"><button class="btn btn-default btn-xs" data-widget="collapse" id="bc_w0_btn"><i class="fa fa-minus"></i></button></div></div><div class="box-body">
             
-<a href="https://ais.nurulfikri.ac.id/news/14/ais-sistem-informasi-akademik-generasi-baru-di-sttnf"><h3 style="margin-top:0;">AIS sistem informasi akademik generasi baru di STTNF</h3></a><p class="text-muted"><i class="fa fa-calendar-alt fa-sm"></i> &nbsp;Minggu, 23 September 2018 - 17:23</p>
+<a href="https://ais.nurulfikri.ac.id/news/14/ais-sistem-informasi-akademik-generasi-baru-di-sttnf"><h3 style="margin-top:0;">SIMASDOS sistem informasi asisten dosen generasi baru di STTNF</h3></a><p class="text-muted"><i class="fa fa-calendar-alt fa-sm"></i> &nbsp;Minggu, 23 September 2018 - 17:23</p>
 <img class="img-responsive pad" src="../img/articles/items/ais-sistem-informasi-akademik-generasi-baru-di-sttnf.png" alt=""><p>Sistem informasi akademik STTNF versi baru mulai semester ganjil tahun akademik 2018-2019 akan digunakan di kampus STTNF dalam mendukung proses belajar mengajar. Sistem informasi ini sengaja diberi nama yang mudah diingat oleh sivitas akademik, yaitu AIS&nbsp;(academik information system) sebagaimana ELEN sebagai sistem elearning di kampus STTNF.</p>
 <a href="https://ais.nurulfikri.ac.id/news/14/ais-sistem-informasi-akademik-generasi-baru-di-sttnf">baca lebih lanjut...</a>
         </div><div class='box-footer'><p class="text-muted"><i class="fa fa-tags fa-sm"></i> Berita Akademik &nbsp;&nbsp;<i class="fa fa-keyboard fa-sm"></i> admin</p></div></div>    </div>
